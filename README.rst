@@ -5,7 +5,7 @@ Ceci est un portage du template de *Game Design Document* écrit originèlement 
 
 Ce document vous montre la marche à suivre pour rédiger correctement un `GameDesign Document <http://en.wikipedia.org/wiki/Game_design_document>`_ dans le but de créer vos propres jeux vidéo.
 
-Ce portage a été réalisé à l'aide de `Sphynx <http://sphinx-doc.org>`_ un puissant générateur de documentation. Celui-ci permet de produire à partir de fichiers `ReStructuredText <http://fr.wikipedia.org/wiki/ReStructuredText>`_ des documents HTML, Latex, PDF ou encore Epub.
+Ce portage a été réalisé à l'aide de `Sphinx <http://sphinx-doc.org>`_ un puissant générateur de documentation. Celui-ci permet de produire à partir de fichiers `ReStructuredText <http://fr.wikipedia.org/wiki/ReStructuredText>`_ des documents HTML, Latex, PDF ou encore Epub.
 
 
 Installation
@@ -26,7 +26,7 @@ Puis lancer l'installation nécéssaire au projet::
 Utilisation
 -----------
 
-Maintenant que tout est bien installé, il vous suffit d'éditer le fichier **conf.py** présent le dossier source notamment les variables author, title, project::
+Maintenant que tout est bien installé, il vous suffit d'éditer le fichier **conf.py** présent le dossier **source**. Modifiez notamment les variables **author**, **title** et **project**::
     
     project = u'game-design-document'
     title = u'My Game'
@@ -39,7 +39,7 @@ Vous pouvez maintenant éditer l'ensemble de votre *GameDesign Document* à l'ai
 Génération du document
 ----------------------
 
-Maintenant que votre document est édité vous pouvez le générer. Pour celà allez à la racine de votre projet puis lancez la commande make::
+Maintenant que votre document est édité vous pouvez le générer. Pour cela allez à la racine de votre projet puis lancez la commande make::
 
     $ # pour l'HTML
     $ make html
@@ -68,7 +68,7 @@ Co-rédacteurs :
 
 Inspirations :
 
-* Gamasutra
+* `Gamasutra <http://gamasutra.com>`_
 
 Porteur du document sous Sphinx :
 
