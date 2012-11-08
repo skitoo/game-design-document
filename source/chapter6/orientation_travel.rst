@@ -1,4 +1,6 @@
 Orientation et les Déplacements
 -------------------------------
 
-Décrire comment le joueur va appréhender l’espace du jeu, quels sont les déplacements possibles pour les différentes entités.
+.. todo::
+
+    Décrire comment le joueur va appréhender l’espace du jeu, quels sont les déplacements possibles pour les différentes entités.

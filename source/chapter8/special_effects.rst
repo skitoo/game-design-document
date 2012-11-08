@@ -1,4 +1,6 @@
 Effets spéciaux
 ---------------
 
-Décrire les effets spéciaux sur le plan artistique.
+.. todo::
+
+    Décrire les effets spéciaux sur le plan artistique.

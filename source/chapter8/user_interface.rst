@@ -1,4 +1,6 @@
 Interface utilisateur
 ---------------------
 
-Décrire l’interface utilisateur sur le plan artistique.
+.. todo::
+
+    Décrire l’interface utilisateur sur le plan artistique.
