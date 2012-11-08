@@ -41,7 +41,9 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'game-design-document'
-copyright = u'2012, Alexis Couronne'
+title = u'My Game'
+author = u'My Name'
+copyright = u'2012, %s' % author
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -166,7 +168,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'game-design-documentdoc'
+htmlhelp_basename = '%sdoc' % project
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -185,8 +187,8 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'game-design-document.tex', u'game-design-document Documentation',
-   u'Alexis Couronne', 'manual'),
+  ('index', '%s.tex' % project, u'%s Documentation' % title,
+   author, 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -215,8 +217,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'game-design-document', u'game-design-document Documentation',
-     [u'Alexis Couronne'], 1)
+    ('index', project, u'%s Documentation' % title,
+     [author], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -229,8 +231,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'game-design-document', u'game-design-document Documentation',
-   u'Alexis Couronne', 'game-design-document', 'One line description of project.',
+  ('index', project, u'%s Documentation' % title,
+   author, project, 'One line description of project.',
    'Miscellaneous'),
 ]
 
@@ -247,14 +249,14 @@ texinfo_documents = [
 # -- Options for Epub output ---------------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'game-design-document'
-epub_author = u'Alexis Couronne'
-epub_publisher = u'Alexis Couronne'
-epub_copyright = u'2012, Alexis Couronne'
+epub_title = title
+epub_author = author
+epub_publisher = author
+epub_copyright = copyright
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.
-#epub_language = ''
+epub_language = language
 
 # The scheme of the identifier. Typical schemes are ISBN or URL.
 #epub_scheme = ''
